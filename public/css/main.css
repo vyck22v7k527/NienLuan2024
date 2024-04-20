@@ -1,0 +1,37 @@
+.canGiua {
+    text-align: center;
+}
+
+.brand-link {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.initials-circle {
+    width: 30px; /* Điều chỉnh kích thước của hình tròn */
+    height: 30px; /* Điều chỉnh kích thước của hình tròn */
+    border-radius: 50%; /* Biến hình thành hình tròn */
+    background-color: #000; /* Màu nền đen */
+    color: #fff; /* Màu chữ trắng */
+    text-align: center; /* Canh lề chữ giữa hình tròn */
+    line-height: 30px; /* Căn giữa chữ theo chiều dọc */
+    font-weight: bold; /* Chữ in đậm */
+}
+
+.brand-link .brand-image {
+    margin-left: 0;
+    margin-right: 0;
+}
+.unenabled {
+    /* Add styles specific to the "unenabled" state */
+    opacity: 0.5; /* Example: Reducing opacity for a disabled look */
+    cursor: not-allowed;
+}
+
+.btn-success {
+    background-color: #ff3281 !important;
+    outline: none !important;
+    border: none !important;
+}
